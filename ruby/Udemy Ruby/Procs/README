@@ -1,0 +1,7 @@
+Proc to blok, ktory mozna zapisac i uzywac wielokrotnie.
+a = Proc.new --tu wstawiam blok
+
+b = [array]
+
+b(&a) - a to proc. wymaga znaczka ampresand, zeby sie do niego
+odwolac z arrays
