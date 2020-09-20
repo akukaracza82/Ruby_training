@@ -1,13 +1,3 @@
-# def temp(str)
-#     len = str.length() - 1;
-# 	return (str.split('')[len] + str + str.split('')[len]);
-# end
-#
-# puts temp("java")
+array = [1, 2, 5, 9, 5, 6, 5]
 
-def temp(str)
-  len = str.length -1
-  str.split('')[len]
-end
-
-puts temp("")
+puts array[0,5]
